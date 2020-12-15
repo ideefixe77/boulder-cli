@@ -1,6 +1,6 @@
 /* 
  * Boulder Palm
- * Copyright (C) 2001-2020 by Wojciech Martusewicz <martusewicz@interia.pl> 
+ * Copyright (C) 2001-2020 by Wojciech Martusewicz 
  */
 
 #include "tools.h"
@@ -13,7 +13,7 @@
 #define Y_MARGIN            0
 
 #define TILE_SIZE           1
-#define BITMAP_MAX          14  /* Number of bitmaps to load */
+#define BITMAP_MAX          14  // Number of bitmaps to load
 
 #if (SCREEN_SIZE_X / TILE_SIZE) < LEVELS_WIDTH
     #define BOARD_WIDTH     (SCREEN_SIZE_X / TILE_SIZE)
